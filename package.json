@@ -1,0 +1,22 @@
+{
+	"name": "spotnode",
+	"description": "Spotnet server on Node",
+	"version": "0.0.1",
+	"author": "Tolsma Telematica Consultancy <code at tolsma.net>, Sander Tolsma <sander at tolsma.net>",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/stolsma/spotnode"
+	},
+	"keywords": ["distributed", "ftd", "spotnet", "nntp"],
+	"dependencies": {
+		"nntp": "0.1.x",
+		"sax": "0.1.x",
+		"xml2js": "0.1.x"
+	},
+	"main": "./lib/spotnode",
+	"bin": {
+	},
+	"engines": {
+		"node": "0.4.x || 0.5.x"
+	}
+}
